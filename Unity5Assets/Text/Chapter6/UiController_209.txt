@@ -1,0 +1,16 @@
+#pragma strict
+
+import UnityEngine.UI;
+
+public var text : Text;
+public static var gameOver : boolean;
+
+function Start(){
+	text.enabled = false;
+}
+
+function Update(){
+	if(gameOver){
+		text.enabled = true;
+	}
+}

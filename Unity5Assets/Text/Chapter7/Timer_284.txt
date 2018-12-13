@@ -1,0 +1,25 @@
+#pragma strict
+import UnityEngine.UI;
+
+public static var time : float;
+
+function Start(){
+	time = 0;
+}
+
+function Update(){
+
+	// ƒS[ƒ‹‚µ‚Ä‚¢‚È‚¢‚Æ‚«
+	if(GoalArea.goal == false){
+
+		// ŠÔ‚ÌŒo‰ß
+		time += Time.deltaTime;
+
+	}
+
+	// ŠÔ‚Ì•\¦
+	var t : int = Mathf.FloorToInt(time);
+	var uiText : Text = GetComponent.<Text>();
+	uiText.text = "Time : " + t.ToString();
+
+}

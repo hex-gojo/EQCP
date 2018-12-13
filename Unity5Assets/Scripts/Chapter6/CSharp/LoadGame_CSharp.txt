@@ -1,0 +1,12 @@
+using UnityEngine;
+using System.Collections;
+
+public class LoadGame_CSharp : MonoBehaviour {
+	public string sceneName;
+
+public void LoadGame(){
+		UiController_CSharp.gameOver = false;
+		Application.LoadLevel(sceneName);
+		Score_CSharp.score = 0;
+	}
+}
