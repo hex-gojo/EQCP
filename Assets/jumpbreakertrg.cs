@@ -6,8 +6,16 @@ using UnityEngine.SceneManagement;
 public class jumpbreakertrg : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
-		Debug.Log ("aaaa");
-		SceneManager.LoadScene ("Event1");
+		Debug.Log (Dataset.breakersceneflag);
+		if (Dataset.breakersceneflag == 0) {
+			SceneManager.LoadScene ("Event1");
+			Dataset.breakersceneflag = 1;
+			Vector3 tmp = GameObject.Find ("PQchan").transform.position;
+			Dataset.playerX = tmp.x;
+			Dataset.playerZ = tmp.z;
+			tmp = GameObject.Find ("PQchan").transform.localEulerAngles;
+			Dataset.Rotation = tmp.y;
+		}
 	}
 
 	// Use this for initialization
