@@ -8,7 +8,7 @@ public class jumpbreakertrg : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		Debug.Log (Dataset.breakersceneflag);
 		if (Dataset.breakersceneflag == 0) {
-			SceneManager.LoadScene ("Event1");
+			SceneManager.LoadScene ("Breaker");
 			Dataset.breakersceneflag = 1;
 			Vector3 tmp = GameObject.Find ("PQchan").transform.position;
 			Dataset.playerX = tmp.x;
