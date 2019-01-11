@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 23400cbb03b108b4ea5a9979466f5b51
   - enabled: 1
     path: Assets/Table.unity
-    guid: 00000000000000000000000000000000
+    guid: 32d3ae0a67c37534da8292d35639ce2e
   - enabled: 1
     path: Assets/Breaker.unity
     guid: b29e1743091c17e4b9c4f67f7c21445b
@@ -26,3 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stove.unity
     guid: b95c0ba62867ff84f8b34355d55f34e7
+  - enabled: 1
+    path: Assets/Result.unity
+    guid: 642cc14d89d79674caab9e0b9998866a
+  - enabled: 1
+    path: Assets/Prologue.unity
+    guid: 00000000000000000000000000000000
