@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Start.unity
+    guid: 3b1424a32e118f04bbc13befbe279fa1
+  - enabled: 1
     path: Assets/Main.unity
     guid: 23400cbb03b108b4ea5a9979466f5b51
   - enabled: 1
-    path: Assets/Event1.unity
+    path: Assets/Table.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Breaker.unity
     guid: b29e1743091c17e4b9c4f67f7c21445b
+  - enabled: 1
+    path: Assets/Mirror.unity
+    guid: cb5a8649a2a02ae49b9e918b3f782c02
+  - enabled: 1
+    path: Assets/Shelf.unity
+    guid: fc9b8cff827c5c149a204b0f316e1bb2
+  - enabled: 1
+    path: Assets/Stove.unity
+    guid: b95c0ba62867ff84f8b34355d55f34e7

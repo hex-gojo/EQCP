@@ -7,9 +7,9 @@ public class jumptabletrg : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		Debug.Log (Dataset.breakersceneflag);
-		if (Dataset.breakersceneflag == 0) {
+		if (Dataset.tablesceneflag == 0) {
 			SceneManager.LoadScene ("Table");
-			Dataset.breakersceneflag = 1;
+			Dataset.tablesceneflag = 1;
 			Vector3 tmp = GameObject.Find ("PQchan").transform.position;
 			Dataset.playerX = tmp.x;
 			Dataset.playerZ = tmp.z;
